@@ -3,7 +3,7 @@ def muestra_matriz(matriz)
 	i=0
 	rango = 0...matriz[0].length
 	rango_txt = rango.to_a
-	print "\n+   #{rango_txt.join("  ")}\n"
+	print "\n   #{rango_txt.join("  ")}\n"
 	for fila in matriz
 		puts "#{i} #{fila}"
 		i += 1
